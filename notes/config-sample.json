@@ -1,0 +1,30 @@
+{
+    "!root-password": "testPass",
+    "audio": null,
+    "bootloader": "systemd-bootctl",
+    "filesystem": "ext4",
+    "harddrive": {
+        "path": "/dev/sda"
+    },
+    "hostname": "YellowTram",
+    "kernels": [
+        "linux"
+    ],
+    "keyboard-language": "hu",
+    "mirror-region": {
+        "Worldwide": {
+            "https://mirror.rackspace.com/archlinux/$repo/os/$arch": true
+        }
+    },
+    "nic": {
+        "NetworkManager": true
+    },
+    "packages": [],
+    "profile": null,
+    "superusers": {
+        "piciakk": {
+            "!password": "testPass"
+        }
+    },
+    "timezone": "UTC"
+}

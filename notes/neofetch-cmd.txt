@@ -1,0 +1,1 @@
+neofetch --source ~/akklinux-ascii-art.txt --ascii_colors 2
